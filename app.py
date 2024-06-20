@@ -28,8 +28,7 @@ def get_response():
     response=llm_chain.run(user_input)
     return response
 
-if __name__=='__main__':
-    app.run(debug=True)
+
 
 
 
